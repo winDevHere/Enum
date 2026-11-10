@@ -2,10 +2,10 @@ using UnityEngine;
 
 public enum Direction
 {
-    North,
-    East,
-    South,
-    West
+    North = 90,
+    East = 0,
+    South = 270,
+    West = 180
 }
 
 public class EnumExample : MonoBehaviour
@@ -20,7 +20,7 @@ public class EnumExample : MonoBehaviour
             case Direction.East:    Debug.Log("Heading " + direction); break;
             case Direction.South:   Debug.Log("Heading " + direction); break;
             case Direction.West:    Debug.Log("Heading " + direction); break;
-        };
+        }
 
         Debug.Log($"{direction} has value {(int)direction}");
     }

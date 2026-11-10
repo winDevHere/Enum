@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 1586673150}
   - component: {fileID: 1586673149}
   - component: {fileID: 1586673151}
+  - component: {fileID: 1586673152}
   m_Layer: 0
   m_Name: EnumManager
   m_TagString: Untagged
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf6c13c1b321a543bdf17de2c767b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnumExample
-  direction: 3
+  direction: 270
 --- !u!4 &1586673150
 Transform:
   m_ObjectHideFlags: 0
@@ -393,12 +394,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586673148}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4798f0b40a6185d4d83ca93ff87be3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimplestEnum
   myDirection: 0
+--- !u!114 &1586673152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586673148}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcc6b6d52783c04693b0b8b5b17fb21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameState
+  state0: 1
+  stateNumber: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

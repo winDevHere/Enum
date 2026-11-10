@@ -14,12 +14,6 @@ public class SimplestEnum : MonoBehaviour
 
     void Start()
     {
-        switch (myDirection)
-        {
-            case MyDirection.North: Debug.Log("My direction is" + myDirection); break;
-            case MyDirection.East:  Debug.Log("My direction is" + myDirection); break;
-            case MyDirection.South: Debug.Log("My direction is" + myDirection); break;
-            case MyDirection.West:  Debug.Log("My direction is" + myDirection); break;
-        }
+        Debug.Log(myDirection + " " + (int)myDirection);
     }
 }
